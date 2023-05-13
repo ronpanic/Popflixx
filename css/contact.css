@@ -1,0 +1,89 @@
+.nav3 h1 {
+  font-size: 3rem;
+  color: #59A993;
+  font-family: "Cunia";
+  margin-left: 44.5rem;
+}
+
+.contact-page {
+  margin-top: 5rem;
+}
+.contact-page .topics-contact {
+  text-align: start;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.contact-page h1 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.contact-page button {
+  background-color: #a6a6a6;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.contact-page button:hover {
+  background-color: rgba(166, 166, 166, 0.8);
+}
+
+.help-contact {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  text-align: start;
+  display: flex;
+}
+.help-contact .all-container {
+  display: flex;
+  margin-left: -13.5rem;
+}
+.help-contact .help-container {
+  margin-top: 4rem;
+  margin-right: 3rem;
+  border: 1px solid #fff;
+  padding: 20px;
+  cursor: pointer;
+}
+.help-contact .help-container:hover {
+  background-color: rgba(89, 169, 147, 0.2);
+}
+.help-contact .help-container h2 {
+  margin-top: 1rem;
+  font-size: 15px;
+}
+.help-contact .help-container p {
+  font-size: 13px;
+}
+
+.contact-icon {
+  filter: invert(1);
+}
+.contact-icon img {
+  width: 2rem;
+  margin-right: 2rem;
+}
+
+.ask-contact {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.ask-contact h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.ask-contact div {
+  margin-right: 5rem;
+}
+.ask-contact div a {
+  color: #a6a6a6;
+}
+.ask-contact div a:hover {
+  color: #59A993;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=contact.css.map */

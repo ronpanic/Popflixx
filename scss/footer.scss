@@ -1,0 +1,13 @@
+footer {
+
+
+    h5 {
+        color: #59A993;
+    }
+
+    p {
+        &:hover {
+            color: #59A993;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+header {
+    h1 {
+        font-family: 'Cunia', sans-serif;
+        font-size: 10rem;
+        color: #59A993;
+        z-index: 4;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    z-index: 1;
+    
+}
+    
+.carousel-inner {
+    img {
+        width: 100%;
+        height: 60rem;
+        object-fit: cover;
+        user-select: none;
+    }
+}

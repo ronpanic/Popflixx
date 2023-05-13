@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Popcorn.svg" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Popflix</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">POPFLIX</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="moviesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Movies
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="moviesDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Comedy</a></li>
+              <li><a class="dropdown-item" href="#">Drama</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="moviesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Series
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="moviesDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Comedy</a></li>
+              <li><a class="dropdown-item" href="#">Drama</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#soon">Soon</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="moviesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Agreement
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="moviesDropdown">
+              <li>
+                <a class="dropdown-item" href="Agreements.html"
+                  >Terms and Service</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav navbar-acc ms-auto">
+          <div class="search-container">
+            <form action="#">
+              <label for="buscador"
+                ><img src="images/search.svg" alt="search"
+              /></label>
+              <input
+                type="text"
+                id="buscador"
+                placeholder="Search any movie..."
+              />
+            </form>
+          </div>
+
+          <li class="nav-item">
+            <a class="nav-link1" href="#">
+              <img
+                src="images/Captura de pantalla 2023-04-22 024724.png"
+                alt="account"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul id="article-list">
+      <a href="#list"><li class="article filter">The Walking Dead</li></a>
+      <a href="#list"><li class="article filter">Turbo</li></a>
+      <a href="#list"><li class="article filter">Click</li></a>
+      <a href="#list"><li class="article filter">Vecinos Invasores</li></a>
+      <a href="#list"><li class="article filter">Zombieland</li></a>
+      <a href="#list"><li class="article filter">Saw X</li></a>
+      <a href="#list"><li class="article filter">The Conjuring 2</li></a>
+      <a href="#list"><li class="article filter">Evil Dead Rise</li></a>
+      <a href="#list"><li class="article filter">The Nun 2</li></a>
+      <a href="#list"><li class="article filter">Sream</li></a>
+      <a href="#list"><li class="article filter">Creed 3</li></a>
+      <a href="#list"><li class="article filter">Troll</li></a>
+      <a href="#list"
+        ><li class="article filter">All quiet on the western front</li></a
+      >
+      <a href="#list"><li class="article filter">Top Gun</li></a>
+      <a href="#list"><li class="article filter">The Last Of Us</li></a>
+      <a href="#list"><li class="article filter">8 Mile</li></a>
+      <a href="#list"><li class="article filter">Agente Nocturno</li></a>
+      <a href="#list"><li class="article filter">Outer Banks</li></a>
+      <a href="#list"><li class="article filter">Breaking Bad</li></a>
+    </ul>
+
+    <header>
+      <h1>POPFLIX</h1>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/creed3.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/jhonwick4.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/marioelbros.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/evildead.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/topgun.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/jurasic1.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="movies-container">
+      <div class="movie movie-hover">
+        <img src="images/TWD.jpg" alt="Título de la película" />
+      </div>
+      <div class="movie movie-hover">
+        <img src="images/letras.jpg" alt="Título de la película" />
+      </div>
+      <div class="movie movie-hover">
+        <img src="images/outer.png" alt="Título de la película" />
+      </div>
+      <div class="movie movie-hover">
+        <img src="images/breakingbad.png" alt="Título de la película" />
+      </div>
+      <div class="movie movie-hover">
+        <img src="images/submarino.png" alt="Título de la película" />
+      </div>
+    </main>
+
+    <section id="movie1" data-aos="fade-up" data-aos-duration="1000">
+      <h1>My List</h1>
+
+      <div class="movies-container2">
+        <div class="movie movie-hover">
+          <img src="images/hoyo.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/8mile.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/agente.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/bala.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/topboy.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/last.jpg" alt="Título de la película" />
+        </div>
+      </div>
+    </section>
+
+    <section class="movie2" data-aos="fade-up" data-aos-duration="1000">
+      <h1>Comedies</h1>
+
+      <div id="soon" class="movies-container2">
+        <div class="movie movie-hover">
+          <img src="images/turbo.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/click.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/vecinos.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/zombieland.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/madagascar.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/novato.jpg" alt="Título de la película" />
+        </div>
+      </div>
+    </section>
+
+    <section class="video">
+      <video id="myVideo" controls autoplay>
+        <source src="images/65 – Official Trailer (HD).mp4" type="video/mp4" />
+      </video>
+
+      <div>
+        <h2>65: On the brink of extinction</h2>
+        <p>
+          The film '65: On the Brink of Extinction' opens on Friday, March 24,
+          2023
+        </p>
+        <button>Watch Now</button>
+      </div>
+    </section>
+
+    <section class="list3">
+      <h1>Popular</h1>
+
+      <div class="movies-container2">
+        <div class="movie3 movie-hover3">
+          <img src="images/p-1.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/p-2.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/p-5.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/p-7.png" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/p-9.jpg" alt="Título de la película" />
+        </div>
+      </div>
+
+      <h1>Horror Movies</h1>
+
+      <div class="movies-container2">
+        <div class="movie3 movie-hover3">
+          <img src="images/t-2.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/t-3.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/t-6.png" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/t-7.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie3 movie-hover3">
+          <img src="images/t-8.jpg" alt="Título de la película" />
+        </div>
+      </div>
+
+      <div class="see-more">
+        <button>See More</button>
+      </div>
+    </section>
+
+    <section id="movie4" data-aos="fade-up" data-aos-duration="1000">
+      <h1>New Releases</h1>
+
+      <div class="movies-container2">
+        <div class="movie movie-hover">
+          <img src="images/n-1.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/n-3.webp" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/n-2.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/n-4.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/n-5.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/n-6.jpg" alt="Título de la película" />
+        </div>
+      </div>
+    </section>
+
+    <section id="movie5" data-aos="fade-up" data-aos-duration="1000">
+      <h1>Movies for Teenagers</h1>
+
+      <div class="movies-container2">
+        <div class="movie movie-hover">
+          <img src="images/y-1.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/y-2.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/y-3.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/y-4.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/y-5.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/y-6.jpg" alt="Título de la película" />
+        </div>
+      </div>
+    </section>
+
+    <section id="movie6" data-aos="fade-up" data-aos-duration="1000">
+      <h1>Dramatic Series</h1>
+
+      <div class="movies-container2">
+        <div class="movie movie-hover">
+          <img src="images/d-1.webp" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/d-2.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/d-3.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/d-4.webp" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/d-5.jpg" alt="Título de la película" />
+        </div>
+        <div class="movie movie-hover">
+          <img src="images/d-6.jpg" alt="Título de la película" />
+        </div>
+      </div>
+    </section>
+
+    <section class="video2">
+      <video id="myVideo1" controls autoplay>
+        <source
+          src="images/CREED III   Official Trailer.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      <div>
+        <h2>Creed III</h2>
+        <p>Adonis Creed, still dominating the boxing world</p>
+        <button>Watch Now</button>
+      </div>
+    </section>
+
+    <section>
+      <h1>All Movies</h1>
+    </section>
+
+    <section id="peliculas">
+       
+      <div id="titulo-pelicula"></div>
+
+    
+    </section>
+
+    <footer class="text-white py-3">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6 text-center">
+          <div class="d-flex align-items-center">
+            <h5 class="mb-0 mr-2">POPFLIX</h5>
+            <a href="Agreements.html"><p class="mb-0 ms-3">Terms and Service</p></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

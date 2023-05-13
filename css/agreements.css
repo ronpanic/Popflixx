@@ -1,0 +1,72 @@
+.nav2 h1 {
+  font-size: 3rem;
+  color: #59A993;
+  font-family: "Cunia";
+  margin-left: 30rem;
+}
+
+main {
+  text-align: center;
+}
+main h2 {
+  margin-top: 5rem;
+  color: #fff;
+}
+main p {
+  color: #888888;
+}
+main a {
+  color: #59A993;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.container .card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .card-deck .card {
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(46, 42, 43, 0.8);
+}
+.container .card-deck .card img {
+  height: 200px;
+  object-fit: cover;
+}
+.container .card-deck .card h5 {
+  color: #fff;
+}
+.container .card-deck .card p {
+  color: #888888;
+}
+.container .card-deck .card .card-body {
+  padding: 20px;
+}
+.container .card-deck .card .card-body h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container .card-deck .card .card-body p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.container .card-deck .card .card-body .btn {
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.footer2 {
+  margin-top: 5rem;
+  margin-left: 29rem;
+}
+
+/*# sourceMappingURL=agreements.css.map */
